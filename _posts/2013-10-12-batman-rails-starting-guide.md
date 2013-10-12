@@ -27,7 +27,7 @@ I wrote this guide on OSX, but it should be similar on Linux.
   
 ## Introduction
 
-  To demonstrate the framework, we are going to build a Foosball Ladder.  It will consist of user authentication, teams and matches.  The ranking will be an ELO system, though it's not terribly important for the purpose of this guide.
+  To demonstrate the framework, we are going to build a Foosball Ladder.  It will consist of users, teams and matches.  The ranking will be an ELO system, though it's not terribly important for the purpose of this guide.
   
 ## Setup
 
@@ -73,8 +73,7 @@ The important things being:
 
   - batman-rails  the batman.js gem
   - devise        for easy user login code
-  - mysql2        to persist your data
-  - debugger      to step through your data
+  - debugger      to step through your code
    
 After you have saved the Gemfile, go into your terminal and type:
 {% highlight bash %}
