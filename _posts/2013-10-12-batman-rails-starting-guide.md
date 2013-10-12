@@ -10,10 +10,10 @@ permalink: /batman/getting-started
   
   After reading this guide you'll be able to:
   
-  1. How to install rails, BatmanJS and connect to a database
-  2. Then general layout of rails and BatmanJS
+  1. How to install rails, batman.js and connect to a database
+  2. Then general layout of rails and batman.js
   3. The basics of a REST api and JSON endpoints
-  4. How to do relationship modelling from Rails to BatmanJS
+  4. How to do relationship modelling from Rails to batman.js
   
 ## Guide Assumptions
 
@@ -117,9 +117,9 @@ $ rails generate devise User
   
 We can worry about the rest later.
   
-## Setup the Batman
+## Setup the batman.js
 
-Now to the meat, we'll be generating a default configuration for BatmanJS.  
+Now to the meat, we'll be generating a default configuration for batman.js.
 From your project root do the following:
   
 {% highlight bash %}
