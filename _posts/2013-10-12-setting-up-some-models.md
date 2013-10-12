@@ -136,7 +136,7 @@ belongs_to :team
   
 Ok that was a lot of rails, now back to batman.  Let's add the relation to both the `User` and the `Team`.  In `user.js.coffee` add:
 {% highlight coffeescript %}
-  @belongsTo 'team'
+@belongsTo 'team'
 {% endhighlight %}
 
 and in `team.js.coffee` add:
