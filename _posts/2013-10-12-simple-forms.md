@@ -60,7 +60,7 @@ Open up `batman/controllers/teams_controller.js.coffee` and add the following ac
 {% highlight coffeescript %}
 index: (params) ->
   FoosballLadder.load (err, response) =>
-  @set 'teams', team
+    @set 'teams', team
 {% endhighlight %}
   
 For this we'll start by writing the index.html, this will live in the `batman/html/teams/index.html`.  Lets start with something, simple like the `main#index` page.
@@ -102,7 +102,7 @@ So lets start by adding the action to the controller.  We'll make a new `Team` a
 {% highlight coffeescript %}
 new: (params) ->
   team = new FoosballLadder.Team
-  @set 'team', team
+    @set 'team', team
 {% endhighlight %}
   
 Now to write some HTML, make a new file in `batman/html/teams/new.html`.
@@ -134,7 +134,7 @@ Now in the `create` method on the `teams_controller.js.coffee`.  This is how my 
 {% highlight coffeescript %}
 create: ->
   @get('team').save (err,team) ->
-  Batman.redirect FoosballLadder.get('routes.teams.path')
+    Batman.redirect FoosballLadder.get('routes.teams.path')
 {% endhighlight %}
 
 We can use `Batman.redirect` so that after the save we're redirected back to the index page for teams.
