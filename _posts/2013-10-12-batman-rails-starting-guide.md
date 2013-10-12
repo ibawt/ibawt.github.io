@@ -2,6 +2,7 @@
 layout: default
 title: Getting Started
 category: batman
+permalink: /batman/getting-started
 ---
 
 # Batman + Rails - Getting Started
