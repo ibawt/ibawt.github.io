@@ -4,7 +4,6 @@ title: Getting Started
 category: batman
 permalink: /batman/getting-started
 ---
-
 # Batman + Rails - Getting Started
   This guide covers a basic rails setup with javascript client side MVC framework.  
   
@@ -163,6 +162,6 @@ Now you can start rails from the root of your project:
 $ bundle exec rails s
 {% endhighlight %}  
 
-And open a browser to [http://localhost:3000] and you should see the batman.js starting page!
+And open a browser to <a href="http://localhost:3000">http://localhost:3000</a> and you should see the batman.js starting page!
   
 Now go drink some beer.

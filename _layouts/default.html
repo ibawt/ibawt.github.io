@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="/stylesheets/bootstrap.css" media="screen"/>
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css"/>
-		<link rel="stylesheet" href="/stylesheets/syntax.css"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/javascripts/bootstrap.js"></script>
 		<script>
@@ -39,7 +38,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Batman Tutorials <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							{% for tutorial in site.categories.batman reversed %}
-							  <li><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></li>
+							  <li><a href="{{ tutorial.url }}">{{ forloop.index }}. {{ tutorial.title }}</a></li>
 							{% endfor %}
 						</ul>
 					</li>
@@ -53,7 +52,7 @@
     <div class="container">
 			{{ content }}
 		</div>
-		<footer>
+		<footer class="footer">
 			<small>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2013 Ian Quick.  Projects by <a href="https://github.com/ibawt">ibawt</a> can be found on <a href="https://github.com/ibawt">GitHub</a></small>
 		</footer>
   </body>

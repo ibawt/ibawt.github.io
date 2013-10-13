@@ -7437,3 +7437,19 @@ input[type="color"]:focus,
 .affix {
   position: fixed;
 }
+
+.snippet-button {
+		bottom: 5px;
+		padding-top: 5px;
+		position: relative;
+		height: 33px;
+}
+
+.snippet-title {
+		font-size: 32px;
+}
+
+.footer {
+		position: absolute;
+		bottom: 0;
+}

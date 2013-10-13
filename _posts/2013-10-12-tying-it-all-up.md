@@ -3,9 +3,10 @@ layout: default
 title: Tying it all up
 category: batman
 permalink: tying-it-all-up
+excerpt:   So we've shown some basic CRUD in the previous tutorials.  Now it's time to actually do something with the data. We're going to add the ability to challenge other teams, and record that data.  We actually have some real logic to do here instead of the basic operations we have done up until now.
+
 ---
 # Tying it all up
-
   So we've shown some basic CRUD in the previous tutorials.  Now it's time to actually do something with the data. We're going to add the ability to challenge other teams, and record that data.  We actually have some real logic to do here instead of the basic operations we have done up until now.
   
 ## Lets make a model again
