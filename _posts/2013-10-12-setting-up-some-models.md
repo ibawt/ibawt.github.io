@@ -7,7 +7,7 @@ category: batman
 
 # Simple Associations
 
-In this tutorial we'll extend what we did in [Tutorial 1]({{ post_url /batman/getting-started/}}) and generate some models for use in our foosball-ladder project.
+In this tutorial we'll extend what we did in [Tutorial 1]({{ post_url /batman/getting-started/}}) and generate some models for use in our foosball-ladder project and use some associations to relate our data.
   
 ## User authentication
 
@@ -179,3 +179,5 @@ def index
   end
 end
 {% endhighlight %}  
+
+Now you should be able to see a list the teams, with their users embedded.
