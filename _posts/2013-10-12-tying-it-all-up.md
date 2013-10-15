@@ -279,7 +279,7 @@ We'll use the `lookupKeypath` method to grab the model from the foreach iteratio
 
 We added some helper methods to the `Match` model, you can see them above like `match.opposingTeam`.  Since the `match` in our foreach loop is the real model, we can define accessors on it like the controller:
 
-{% highlight coffeescript %
+{% highlight coffeescript %}
 @accessor 'isTeamOneCurrent', ->
   @get('team_one_id') == FoosballLadder.currentUser.get('team_id')
 
