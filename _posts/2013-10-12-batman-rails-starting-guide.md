@@ -120,7 +120,7 @@ All of the batman.js files will be `app/assets/batman`.  For the context of thes
   
 Ok, now we have some javascript in there!  We will be using `coffee-script`, which many find easier than dealing with `javascript` ( myself included.)
   
-## Setup source control ( Optional but reccomended )
+## Setup source control ( Optional but recommended )
 
 It's a good idea to use source control, we will be using [git](http://git-scm.com) and using [Github](http://www.github.com) as the server.  The repo for the code used in this project will be availble on my github [http://github.com/ibawt/foosball-ladder].
   
