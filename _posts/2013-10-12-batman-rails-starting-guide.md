@@ -65,6 +65,7 @@ gem 'unicorn'
 gem 'turbolinks'
 gem 'batman-rails'
 gem 'devise'
+gem 'sqlite3'
 gem 'debugger', group: [:development, :test]
 {% endhighlight %}
 
